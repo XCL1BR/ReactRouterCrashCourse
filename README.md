@@ -10,9 +10,7 @@ This project is a comprehensive crash course on React Router, designed to unders
   - [useLoaderData](#useloaderdata)
   - [Outlet](#outlet)
   - [Link / NavLink](#link--navlink)
-- [Demo](#demo)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Installation
 
