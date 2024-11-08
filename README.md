@@ -147,20 +147,7 @@ The `isActive` property in NavLink is a boolean that becomes true if the link's 
   Link Text
 </NavLink>
 ```
-## Breakdown of the Code:
-- to="/some-path": Specifies the path to navigate to when this NavLink is clicked.
--className={({ isActive }) => ...}:
-1.This is a function that React Router will call with an object containing isActive.
-2.You can use isActive within this function to dynamically set the className based on the active state of the link.
 
--Dynamic Classes:
-4.block py-2 pr-4 pl-3 duration-200: These are utility classes for layout and padding, giving the link some spacing and a transition effect.
-5.${isActive ? "text-orange-700" : "text-gray-700"}:
-     5.1 When isActive is true (the link's URL matches the current route), text-orange-700 is applied, changing the text color to orange.
-     5.2 When isActive is false, text-gray-700 is applied, giving the text a gray color.
-6.border-b border-gray-100: Adds a bottom border to the link with a light gray color.
-7.hover:bg-gray-50: Changes the background to a light gray when the link is hovered.
-8.lg:hover:bg-transparent: Removes the background on hover for large screens.
-9.lg:border-0: Removes the border on large screens.
-10.hover:text-orange-700: Changes text color to orange on hover.
-11.lg:p-0: Removes padding for large screens.
+```${isActive ? "text-orange-700" : "text-gray-700"}:```
+     - When isActive is true (the link's URL matches the current route), text-orange-700 is applied, changing the text color to orange.
+     - When isActive is false, text-gray-700 is applied, giving the text a gray color.
