@@ -3,7 +3,6 @@
 This project is a comprehensive crash course on React Router, designed to understand key hooks and components like `useParams`, `useLoaderData`, `Outlet`, `Link`, and `NavLink`. React Router is a library for routing in React applications, enabling dynamic navigation and URL manipulation without refreshing the page.
 
 ## Table of Contents
-- [Installation](#installation)
 - [Features Covered](#features-covered)
 - [Detailed Explanation of Each Feature](#detailed-explanation-of-each-feature)
   - [useParams](#useparams)
@@ -11,24 +10,6 @@ This project is a comprehensive crash course on React Router, designed to unders
   - [Outlet](#outlet)
   - [Link / NavLink](#link--navlink)
 
-
-## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/react-router-crash-course.git
-    cd react-router-crash-course
-    ```
-
-2. Install the dependencies:
-    ```bash
-    npm install
-    ```
-
-3. Start the development server:
-    ```bash
-    npm start
-    ```
 
 ## Features Covered
 
