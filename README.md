@@ -68,7 +68,7 @@ const routes = [
 ## Usage Scenario:
 Use `useLoaderData` when you want to ensure data is available as soon as a route component renders, e.g., fetching details for a specific product before loading a product detail page
 
-## Outlet
+### `Outlet`
 The `Outlet` component is used for rendering nested routes in a parent route. It acts as a placeholder for child routes, allowing for dynamic rendering of nested components based on the URL
 
 ```
@@ -99,7 +99,7 @@ const routes = [
 ## Usage Scenario:
 In a dashboard layout, you may have a parent route for /dashboard with child routes for /dashboard/analytics and /dashboard/reports. Outlet will dynamically render the relevant component based on the nested route.
 
-### Link / NavLink
+### `Link / NavLink`
 The Link and NavLink components are used for navigation within your app without refreshing the page. NavLink is similar to Link, but it also provides styling for active links, making it ideal for navigation menus.
 
 ```
