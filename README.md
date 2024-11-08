@@ -105,8 +105,7 @@ The Link and NavLink components are used for navigation within your app without 
 ```
 Example (Link):
 
-jsx
-Copy code
+
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -121,8 +120,7 @@ function Navbar() {
 ```
 Example (NavLink):
 
-jsx
-Copy code
+
 import { NavLink } from 'react-router-dom';
 
 function Navbar() {
